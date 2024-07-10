@@ -19,4 +19,9 @@ void reverseStack(stack<int> &s)
         s.push(cp.top());
         cp.pop();
     }
+    // while (!cp.empty())
+    // {
+    //     s.push(cp.top());
+    //     cp.pop();
+    // }
 }
